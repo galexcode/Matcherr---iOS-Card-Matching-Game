@@ -36,6 +36,7 @@
   
   if (self.cards.count) {
     unsigned index = arc4random() & self.cards.count;
+    if (index > self.cards.count -1) index -= 1;
     randomCard = self.cards[index];
     [self.cards removeObjectAtIndex:index];
   }
