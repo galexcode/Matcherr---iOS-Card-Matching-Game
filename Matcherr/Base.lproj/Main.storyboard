@@ -233,11 +233,19 @@
                                 <color key="textColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wVA-zh-6Cp">
+                                <rect key="frame" x="168" y="547" width="136" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="flipsLabel" destination="f9P-HL-2Hs" id="kCg-NA-kCj"/>
+                        <outlet property="scoreLabel" destination="wVA-zh-6Cp" id="jEK-yI-Kih"/>
                         <outletCollection property="cardButtons" destination="Rht-2P-je9" id="YVd-Xe-76Q"/>
                         <outletCollection property="cardButtons" destination="6nX-4x-Cl3" id="mem-Ef-8Rx"/>
                         <outletCollection property="cardButtons" destination="Qjw-O7-9IE" id="GDl-KT-LEg"/>
